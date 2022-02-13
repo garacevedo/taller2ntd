@@ -7412,6 +7412,11 @@ textarea.form-control-lg {
   margin-left: auto !important;
 }
 
+.md-auto{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -11330,7 +11335,7 @@ p {
 }
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 .section-heading .section-heading-lower {
