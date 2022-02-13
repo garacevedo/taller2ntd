@@ -230,6 +230,38 @@ sup {
 sub {
   bottom: -0.25em;
 }
+ #contenedor{
+  float: left;
+ }
+
+.banner_img{
+
+float: left;
+animation: movimiento 2s linear infinite;
+}
+
+.banner_img img{
+
+width: 300px;
+height: 500 px;
+display: block;
+
+}
+
+@keyframes movimiento {
+  0%{
+
+    transform: translateY(0);
+  }
+  50%{
+
+    transform: translateY(30px);
+  }
+  100%{
+
+    transform: translateY(0);
+  }
+}
 
 sup {
   top: -0.5em;
