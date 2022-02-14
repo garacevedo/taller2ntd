@@ -233,7 +233,36 @@ sub {
  #contenedor{
   float: left;
  }
+ 
+ #volar{
+  float: center;
+ }
+ .banner_vuelo{
 
+  float: center;
+  animation: volar 2s linear infinite;
+  }
+  .banner_vuelo vuelo{
+
+    width: 200px;
+    height: 100 px;
+    display: block;
+    
+    }
+    @keyframes volar {
+      0%{
+    
+        transform: translatex(0);
+      }
+      50%{
+    
+        transform: translatex(200px);
+      }
+      100%{
+    
+        transform: translatex(0);
+      }
+    }
 .banner_img{
 
 float: left;
